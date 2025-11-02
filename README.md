@@ -6,24 +6,24 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:João Pedro Alvarenga Santos
+- Matricula:898440
+- Proposta de projeto escolhida:Lugares e Experiências
+- Breve descrição sobre seu projeto: A ideia do projeto é produzir uma pagina de navegação indicando locais para visitar e ter experiencias novas
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![get](./img/GETALL.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![post](./img/creatone.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![put](./img/update%20one.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![del](./img/deleteone.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![requis](./img/requis.png)
 
 ## **Orientações Gerais**
 
