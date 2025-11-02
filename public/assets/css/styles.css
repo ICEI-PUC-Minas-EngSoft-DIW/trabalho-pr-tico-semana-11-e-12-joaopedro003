@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5; /* Fundo mais suave */
+  color: #333;
+}
+
+/* --- Cores e Layout Geral --- */
+.bg-gradient {
+  /* Esquema de cor do usuário, levemente aprofundado */
+  background: linear-gradient(135deg, #00796b, #004d40); 
+}
+
+/* --- MODIFICAÇÃO DO CABEÇALHO --- */
+header h1 {
+  font-weight: 800; /* Mais peso para o título */
+  font-size: 3.2rem; /* Levemente maior */
+  /* Adiciona sombra para aumentar o contraste e visibilidade */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+}
+
+header p.lead {
+  /* Adiciona sombra para o subtítulo */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+/* Garante padding no corpo principal */
+.main-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* --- Rodapé e Informações do Autor --- */
+footer {
+  background-color: #004d40;
+}
+.author-info {
+  border-top: 1px solid rgba(255, 255, 255, 0.3); /* Linha divisória */
+  padding-top: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* --- Cards (Destinos) --- */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Efeito de elevação mais notável */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Sombra mais destacada */
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+.card-title {
+  color: #00796b; /* Cor de destaque */
+  font-weight: 600;
+}
+
+/* --- Carrossel de Destaques --- */
+#carouselDestaques .carousel-item img {
+  height: 450px; /* Altura padrão para o carrossel */
+  object-fit: cover;
+  border-radius: 10px;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 15px;
+  bottom: 20px;
+}
+
+/* --- Página de Detalhes --- */
+#detalhes-container img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.attraction {
+  background-color: #e0f2f1;
+  border-left: 5px solid #00796b; /* Faixa lateral de destaque */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.attraction img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* Imagens das atrações em formato circular */
+    margin-right: 15px;
+}
